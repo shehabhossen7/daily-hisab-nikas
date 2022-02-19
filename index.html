@@ -21,11 +21,11 @@
           <h4 class="text-center text-primary  ">আমার পরিচিতি</h4>
           <div class="text-center m-2">
             <label  class="label-font" for="">আমার নাম :</label>
-            <input class="border-0 bg-input  rounded-pill  p-1" type="text" placeholder="নাম" />
+            <input id="my-name" class="border-0 bg-input  rounded-pill  p-1" type="text" placeholder="নাম" />
           </div>
           <div class="text-center">
             <label  class="label-font" for="">পেশা :</label>
-            <input class="border-0 bg-input  rounded-pill p-1" type="text" placeholder="পেশা" />
+            <input id="job" class="border-0 bg-input  rounded-pill p-1" type="text" placeholder="পেশা" />
           </div>
         </div>
         <hr>
@@ -35,7 +35,7 @@
           <h4 class="text-center text-success">মাসিক আয়</h4>
           <div class="text-center m-2">
             <label  class="label-font" for="">বেতন :</label>
-            <input class="border-0 bg-input  rounded-pill p-1" type="text" placeholder="বেতন" />
+            <input id="salary" class="border-0 bg-input  rounded-pill p-1" type="text" placeholder="বেতন" />
           </div>
           <div class="text-center m-2">
             <button class="border-0 fw-bold px-3 rounded-pill">+ আরো আয়ের উৎস যোগ করুন</button>
@@ -46,19 +46,19 @@
           <h4 class="text-center text-success mt-3 mb-2">মাসিক ব্যয়ের হিসাব</h4>
           <div class="text-center m-2 ">
             <label  class="label-font" for=""> বাসা ভাড়া :</label>
-            <input class="border-0 bg-input  rounded-pill p-1" type="text" placeholder="বাসা ভাড়া" />
+            <input id="house-vara" class="border-0 bg-input  rounded-pill p-1" type="text" placeholder="বাসা ভাড়া" />
           </div>
           <div class="text-center mb-2 ">
             <label  class="label-font" for="">খাবার :</label>
-            <input class="border-0 bg-input  rounded-pill p-1" type="text" placeholder="খাবার" />
+            <input id="food-bill" class="border-0 bg-input  rounded-pill p-1" type="text" placeholder="খাবার" />
           </div>
           <div class="text-center mb-2">
             <label  class="label-font" for="">কাপড়-চোপড় :</label>
-            <input class="border-0 p-1 bg-input rounded-pill" type="text" placeholder="কাপড়-চোপড়" />
+            <input id="cloth-bill" class="border-0 p-1 bg-input rounded-pill" type="text" placeholder="কাপড়-চোপড়" />
           </div>
           <div class="text-center mb-2">
             <label  class="label-font" for="">মাসিক জমা হার :</label>
-            <input class="border-0 p-1 bg-input rounded-pill width" type="text" placeholder="জমা হার" />  <span class="fw-size "> %</span>
+            <input id="save-money" class="border-0 p-1 bg-input rounded-pill width" type="text" placeholder="জমা হার" />  <span class="fw-size "> %</span>
           </div>
           <div class="text-center">
             <button class="border-0 fw-bold px-3 rounded-pill">+ আরো ব্যয় যোগ করুন</button>
@@ -66,18 +66,18 @@
         
         </div>
         <div class="text-center">
-          <button type="button" class="btn btn-success px-5 rounded-pill m-3">হিসাব করুন</button>
+          <button id="hisab-korun" type="button" class="btn btn-success px-5 rounded-pill m-3">হিসাব করুন</button>
         </div>
       </section>
       <section class="container text-center bg-color-4 p-4 mb-4">
         <h2 class="text-primary">আমার হিসাব</h2>
-        <h4>আমার নাম :  <span class="font">আব্দুর রহমান </span></h4>
-        <h4>পেশা : <span class="font">শিক্ষক</span></h4>
-        <h4>মাসিক আয় : <span class="font">0</span> ৳</h4>
-        <h4>মাসিক ব্যয় : <span class="font">0</span>  ৳</h4>
-        <h4>মাসিক জমার হার : <span class="font">0</span>  ৳</h4>
-        <h4>মাসিক জমার পরিমাণ : <span class="font">0</span>  ৳</h4>
-        <h4>বর্তমান ব্যলেন্স : <span class="font">0</span>  ৳</h4>
+        <h4>আমার নাম :  <span id="set-my-name" class="font">আব্দুর রহমান </span></h4>
+        <h4>পেশা : <span id="job-set" class="font">শিক্ষক</span></h4>
+        <h4>মাসিক আয় : <span id="my-income" class="font">0</span> ৳</h4>
+        <h4>মাসিক ব্যয় : <span id="my-expensive" class="font">0</span>  ৳</h4>
+        <h4>মাসিক জমার হার : <span id="my-diposit-rate" class="font">0</span><span class="fw-size "> %</span></h4>
+        <h4>মাসিক জমার পরিমাণ : <span id="my-diposit" class="font">0</span>  ৳</h4>
+        <h4>বর্তমান ব্যলেন্স : <span id="curent-balance" class="font">0</span>  ৳</h4>
         <h2>ধন্যবাদ</h2>
       </section>
     </main>
@@ -129,6 +129,7 @@
         <p>&copy; copyright All right reserve <span> Md. Abdur Rahman</span></p>
       </div>
     </footer> -->
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
