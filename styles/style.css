@@ -1,0 +1,33 @@
+.bg-color-1{
+    background-color: rgba(223, 186, 186, 0.548);
+}
+.bg-color-2{
+    background-color:rgba(228, 161, 236, 0.568);
+}
+.text-color{
+   color:rgba(15, 29, 231, 0.979);
+   font-weight: 700;
+}
+.bg-color-4{
+    color: rgb(62, 76, 121);
+    background-color:rgba(135, 161, 118, 0.247)
+}
+.bg-input{
+   
+    /* background-color: rgba(255, 255, 255, 0.116); */
+}
+
+.font{
+    font-weight: 600;
+}
+.width{
+    width: 100px;
+}
+.fw-size{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.label-font{
+    font-weight: 600;
+}
